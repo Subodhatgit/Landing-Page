@@ -22,8 +22,7 @@ header{
     justify-content: column;
     
 }
-.heromain-herosub .bigimage{
-}
+
 
 .heromain span{
     display: block;
@@ -184,14 +183,14 @@ figcaption{
 .quote{
     background-color: #E5E7EB;
     font-style: italic;
-    height: 200px;
+    height: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 65px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     font-size: xx-large;
     margin-bottom: 90px;
 
