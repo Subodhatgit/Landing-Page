@@ -23,7 +23,6 @@ header{
     
 }
 .heromain-herosub .bigimage{
-    border: 2px white dashed;
 }
 
 .heromain span{
@@ -35,8 +34,8 @@ header{
 .space{
     padding-bottom: 30px;    
     padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 30px;
+    padding-left: 200px;
+    padding-right: 100px;
 }
 .frontparagraph{
     display:flex;
@@ -53,16 +52,40 @@ h1{
     height: 60px;
     width: 60px;
 }
-.flex-container{
-    justify-content: space-between;
+header nav.flex-container{
     display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-list{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 a{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-weight: light;
     
+}
+a:last-child{
+    margin-right: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
 }
 .h1ofheader{
     font-size: 24px;
@@ -76,10 +99,7 @@ h1.h1ofheader,
 section.frontparagraph{
     flex-direction: column;
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-}
+
 a{
     justify-content: space-around;
 }
@@ -114,11 +134,95 @@ button:hover{
 }
 section img.placeholderimg2{
    height: auto;
-   width: 400px;
+   width: 300px;
+   border: 5px white dashed;
+   border-radius: 10px;
 }
 
 .bigimage{
     margin-left: auto;
-   
+    margin-top: auto;
     
 }
+/* main starts here */
+.randominfo{
+    text-align: center;
+    color: #1F2937;
+    margin-top: 36px;
+    margin-bottom:36px ;
+    font-weight: bolder;
+}
+
+.flex-boxes1{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: space-between;
+}
+.randominfo1,
+.randominfo2,
+.randominfo3,
+.randominfo4
+{
+    border: 8px solid #3882F6;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+}
+.img1,.img2,.img3,.img4{
+    width: 120px;
+}
+
+figcaption{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.figsection{
+    margin-bottom: 90px;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-style: italic;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: xx-large;
+    margin-bottom: 90px;
+
+}
+.quoter{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.thirdsection{
+    border:2px solid #3882F6;
+    background-color: #3882F6;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: ;
+    color: white;
+}
+.calltoaction{
+    display: flex;
+}
+footer{
+    height: 90px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: larger;
+}
+    
+
